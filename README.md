@@ -1,7 +1,9 @@
 🖼️ Cartoonify Image using OpenCV
+
 Turn real-life photos into cartoon-style images using computer vision techniques with OpenCV and NumPy!
 
 📌 Project Description
+
 This project takes a real image and transforms it into a cartoon-like image by applying a series of image processing techniques. It uses grayscale conversion, median blur, edge detection, and bilateral filtering to create a smooth, colorful cartoon effect.
 
 🚀 Features
