@@ -1,41 +1,45 @@
-🖼️ Cartoonify Image using OpenCV
+# 🖼️ Cartoonify Image using OpenCV
 
-Turn real-life photos into cartoon-style images using computer vision techniques with OpenCV and NumPy!
+Turn your real-life photos into cartoon-style images using Python and OpenCV!
 
-📌 Project Description
+## 📌 Project Description
 
-This project takes a real image and transforms it into a cartoon-like image by applying a series of image processing techniques. It uses grayscale conversion, median blur, edge detection, and bilateral filtering to create a smooth, colorful cartoon effect.
+This project applies a series of image processing techniques to transform real images into cartoon-like visuals. It uses grayscale conversion, blurring, edge detection, and bilateral filtering to produce a smooth, vibrant cartoon effect.
 
-🚀 Features
-Load and display images
+## ✅ Features
 
-Resize images for consistent processing
+- 📷 Load and display an image
+- ✂️ Resize image for consistent processing
+- 🌑 Convert to grayscale
+- 🧼 Apply median blur for noise reduction
+- ✏️ Detect edges using adaptive thresholding
+- 🎨 Apply bilateral filter to smooth colors
+- 🧩 Combine edge mask and color to get cartoon effect
+- 📊 Display original vs cartoon image using matplotlib
 
-Convert to grayscale
+## 🛠️ Technologies Used
 
-Apply median blur for noise reduction
+- Python 3
+- OpenCV (cv2)
+- NumPy
+- Matplotlib
 
-Detect edges using adaptive thresholding
+## 📁 File Structure
 
-Apply bilateral filter for smoothening
+- `cartoonify_image.py` – Main script for cartoonifying images
+- `README.md` – Project documentation
 
-Combine edges and color for final cartoon effect
+## 🧪 How It Works
 
-View before and after using matplotlib
+1. Load the input image
+2. Resize the image to a fixed width
+3. Convert the image to grayscale
+4. Apply median blur to reduce noise
+5. Detect edges using adaptive thresholding
+6. Apply bilateral filter for smooth color transitions
+7. Combine the edge mask with the smoothed image
+8. Display the original and cartoonified image side by side
 
-🛠️ Technologies Used
-Python 3
+## ▶️ How to Run
 
-OpenCV (cv2)
-
-NumPy
-
-Matplotlib
-
-📷 Example
-Original (left) vs Cartoonified (right):
-
-Run the script to see the visual output. Example image used: WIN_20250614_19_48_09_Pro.jpg
-
-🧠 Credits
-This project was developed using concepts taught in OpenCV tutorials and enhanced with parameter tuning for better visual quality.
+1. Install the required libraries:
