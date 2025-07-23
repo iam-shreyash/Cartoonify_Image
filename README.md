@@ -40,6 +40,3 @@ This project applies a series of image processing techniques to transform real i
 7. Combine the edge mask with the smoothed image
 8. Display the original and cartoonified image side by side
 
-## ▶️ How to Run
-
-1. Install the required libraries:
